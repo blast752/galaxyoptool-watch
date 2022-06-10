@@ -1,1 +1,1 @@
-# galaxyoptool
+# GalaxyWatchOPTool
