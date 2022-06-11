@@ -1,7 +1,7 @@
 ::CONFIGURATION PHASE OF THE TOOL
 @Echo Off
 echo WELCOME ON ONEUI OPTIMIZER
-echo watch version: 1.0.1 
+echo watch version: 1.0.2 
 echo by @blast752 (thx @DanteHunter)
 echo Press "ENTER", otherwise "Ctrl+C" for CLOSE
 echo.
