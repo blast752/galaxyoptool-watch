@@ -16,5 +16,5 @@ Q. How much will I see the differences? Does it make miracles?
 A. Obviously not, but you will surely get improvements on battery especially in background consumption and you will also have a better general fluidity, as well as part of the disabled logging (best privacy) and other small changes that will improve the general experience.
 
 # VERSION TYPES:
-1. CLASSIC: WORKS ON ALL RECENT GALAXYS SMARTPHONES, if you have a doubt, try and tell me. HERE: https://github.com/blast752/galaxyoptool
+1. PHONE: WORKS ON ALL RECENT GALAXYS SMARTPHONES, if you have a doubt, try and tell me. HERE: https://github.com/blast752/galaxyoptool
 2. WATCH: WORKS ON GALAXY WATCH WITH WEAR OS (so atm only GW4 and GW4 Classic)
