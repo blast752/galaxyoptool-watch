@@ -1,7 +1,7 @@
 ::CONFIGURATION PHASE OF THE TOOL
 @Echo Off
 echo WELCOME ON ONEUI OPTIMIZER
-echo watch version: 1.0.2 
+echo watch version: 1.0.2
 echo by @blast752 (thx @DanteHunter)
 echo Press "ENTER", otherwise "Ctrl+C" for CLOSE
 echo.
@@ -42,9 +42,9 @@ echo STARTING OPTIMIZATION TOOL FOR ONE UI WATCH
 echo -------------------------------------------
 echo.
 echo Optimizing animations...
-adb shell settings put global window_animation_scale 0.35
-adb shell settings put global transition_animation_scale 0.35
-adb shell settings put global window_animation_scale 0.35
+adb shell settings put global window_animation_scale 0.5
+adb shell settings put global transition_animation_scale 0.5
+adb shell settings put global window_animation_scale 0.5
 echo.
 echo Disabling useless settings item...
 adb shell settings put global online_manual_url 0
@@ -74,19 +74,19 @@ echo.
 echo Enabling processing speed hack...
 adb shell settings put global sem_enhanced_cpu_responsiveness 1
 echo.
-echo Enabling performance limit (less heat)...
-adb shell settings put global restricted_device_performance 1,1
-echo.
-echo Doing Battery optimizations...
-adb shell cmd package bg-dexopt-job
-echo.
 echo Trimming cache (more times)
 adb shell pm trim-caches 999999999999999999
-adb shell pm trim-caches 999999999999999999 
+adb shell pm trim-caches 999999999999999999
+adb shell pm trim-caches 999999999999999999
+adb shell pm trim-caches 999999999999999999
 adb shell pm trim-caches 999999999999999999
 echo.
 echo Doing Performance optimizations...
 adb shell cmd package compile -m speed-profile -a
+echo.
+echo Doing Battery optimizations...
+echo This operation can take up to 10 minutes
+adb shell cmd package bg-dexopt-job
 echo.
 echo --------------------------------------
 echo TOOL HAS COMPLETED ALL TASKS
